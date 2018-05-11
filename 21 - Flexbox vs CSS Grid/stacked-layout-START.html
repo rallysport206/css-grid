@@ -17,9 +17,13 @@
     <div class="item">4</div>
     <div class="item">5</div>
   </div>
-
+<!-- only doable in flex box -->
   <style>
-    .stacked {}
+    .stacked {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; 
+    }
 
     .stacked>* {
       width: 30%;
